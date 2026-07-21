@@ -183,8 +183,8 @@ if(row[i]=="1"){
 const img=document.createElement("img");
 
 img.src=Math.random()>0.5
-?"assets/images/bayi.jpeg"
-:"assets/images/sekarang.jpeg";
+?"bayi.jpeg"
+:"sekarang.jpeg";
 
 rowDiv.appendChild(img);
 
